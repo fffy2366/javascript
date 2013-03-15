@@ -47,7 +47,7 @@
 		checkEmail:function(email){
 			//check email
 			var reg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
-			if(reg.test(str)){
+			if(reg.test(email)){
 				return true ;
 			}else{
 				return false ;
